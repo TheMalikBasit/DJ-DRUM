@@ -19,10 +19,10 @@ document.addEventListener("keydown" , function(event){
         keyAnimation(event.key);
 });
 
-function keystroke(key){
+function keystroke(keyword){
         // this button trigger the inner HTML written in the button switch statement
         // ensures that if specfic button is pressed and inner HTML is matched with the case then what what should it do
-    switch (key) {
+    switch (keyword) {
         case "w":
             audio1.currentTime = 0;
             audio1.play();
